@@ -1,0 +1,152 @@
+{
+  "id": "fd368d67-446d-48f4-83b8-5b156c12ae21",
+  "version": "2.0",
+  "name": "Login",
+  "url": "https://demoqa.com",
+  "tests": [{
+    "id": "a0590437-47bf-4b0a-96f8-40db058b489b",
+    "name": "LoginSuccessful",
+    "commands": [{
+      "id": "67a5a313-b681-4c3d-b79d-88c9aa178b34",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4a15169c-9185-4377-9ff0-cee43fcfb637",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "982x599",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4656586f-6029-483f-b6bc-896eea92ff16",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(6) path",
+      "targets": [
+        ["css=.card:nth-child(6) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc717d02-d466-4553-bf41-783bdc0da358",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "92df0505-88e6-424f-abfa-0547ee264297",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["css=#login", "css:finder"],
+        ["xpath=//button[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='searchBox-wrapper']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "37f0fbe5-f4c1-43f9-ab85-ca4013908a0b",
+      "comment": "",
+      "command": "click",
+      "target": "id=userName",
+      "targets": [
+        ["id=userName", "id"],
+        ["css=#userName", "css:finder"],
+        ["xpath=//input[@id='userName']", "xpath:attributes"],
+        ["xpath=//div[@id='userName-wrapper']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6626a2d4-1225-457f-86ec-eba152fa99ae",
+      "comment": "",
+      "command": "type",
+      "target": "id=userName",
+      "targets": [
+        ["id=userName", "id"],
+        ["css=#userName", "css:finder"],
+        ["xpath=//input[@id='userName']", "xpath:attributes"],
+        ["xpath=//div[@id='userName-wrapper']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Acunamatata"
+    }, {
+      "id": "2d88fc73-e705-4b03-b497-0eb56bd18a42",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='password-wrapper']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f60875c3-5dfc-4dc6-951e-2f391804e679",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[@id='password-wrapper']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "Nolowercase69*"
+    }, {
+      "id": "2fccda48-4c7b-4810-8ac2-89cd24173aea",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["css=#login", "css:finder"],
+        ["xpath=//button[@id='login']", "xpath:attributes"],
+        ["xpath=//form[@id='userForm']/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4921d3c7-fac4-4ca8-b7c9-90d547ea69ae",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "id=submit",
+      "targets": [
+        ["id=submit", "id"],
+        ["css=.col-md-5 > #submit", "css:finder"],
+        ["xpath=//button[@id='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='books-wrapper']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Log out')]", "xpath:innerText"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "babfe657-595b-4b6c-909c-cd635b8fb260",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=submit",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d92095af-0870-4c70-87ae-50c0339e5958",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://demoqa.com/"],
+  "plugins": []
+}
